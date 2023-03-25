@@ -12,8 +12,8 @@ function Navbar() {
         <div className='flex flex-row ml-80 py-4  '>
 <a href='#About' className="text-primary px-4 font-bold hover:underline cursor-pointer">A propos</a>
 <a href='#Contact' className="text-primary px-4 font-bold hover:underline cursor-pointer">Contact</a>
-<a className="text-primary px-4 font-bold hover:underline cursor-pointer">Services</a>
-<a className="text-primary px-4 font-bold hover:underline cursor-pointer">information</a>
+<a href='#Service' className="text-primary px-4 font-bold hover:underline cursor-pointer">Services</a>
+<a href='#Information' className="text-primary px-4 font-bold hover:underline cursor-pointer">information</a>
         </div>
         <div className='flex flex-row ml-80 '>
 <LinkButton page="/" className="text-primary hover:underline py-4">Connexion</LinkButton>

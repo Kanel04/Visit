@@ -23,7 +23,7 @@ function ContactPage() {
 </div>
 
 </div>
-<div className='flex flex-row bg-primary w-[1000px] h-[450px] z-30 '>
+<div className='flex flex-row bg-primary w-[1000px] h-[460px] z-30 '>
 <div>
 <div className='flex flex-row mt-10 ml-8'>
 <AiOutlineMail className='text-2xl '></AiOutlineMail>
