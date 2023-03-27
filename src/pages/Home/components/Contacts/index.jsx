@@ -46,7 +46,7 @@ href="https://www.google.com/maps/place/Ambohimandamina/@-15.7165647,46.3427353,
 <p className='ml-4'>401</p>
 </div>
 </div>
-<div className='flex flex-col ml-40 '>
+<div className='flex flex-col ml-40 p-5 '>
     <Input type="text" placeholder="Votre nom" className="mt-10 "></Input>
     <Input type="email" placeholder="Votre email" className="mt-6 "></Input>
     <Input type="text" placeholder="Votre message" className="mt-6 h-40 "></Input>

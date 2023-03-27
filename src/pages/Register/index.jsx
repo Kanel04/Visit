@@ -5,7 +5,7 @@ import { Input } from '../../components/Input'
 
 function RegisterPage() {
   return (
-    <div className='bg-six h-screen flex justify-center py-20'>
+    <div className='bg-six h-screen flex justify-center py-5'>
     <div className='bg-primary w-96 h-[590px] py-12'>
       <h1 className='font-bold text-3xl text-center '>Formulaire</h1>
       <div className='flex justify-center py-10'>

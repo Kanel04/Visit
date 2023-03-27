@@ -12,8 +12,8 @@ function FooterPage() {
 <a href='#Service' className="text-primary py-2 font-bold hover:underline cursor-pointer">Services</a>
 <a href='#Information' className="text-primary py-2 font-bold hover:underline cursor-pointer">information</a>
         </div>
-      <div className='py-20 px-[210px]'>
-        <p className='text-primary'>© Copyright 2023 , notre site de voyage Visit. </p>
+      <div className='py-20 px-[150px]'>
+        <p className='text-primary '>© Copyright 2023 , notre site de voyage Visit. </p>
       </div>
     </div>
   )

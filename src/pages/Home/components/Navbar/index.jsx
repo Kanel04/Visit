@@ -9,13 +9,13 @@ function Navbar() {
           <div className='text-5xl font-bold text-three'>V</div>
           <div className='text-primary font-bold text-3xl'>isit.</div>
         </div>
-        <div className='flex flex-row ml-80 py-4  '>
+        <div className='flex flex-row ml-60 py-4  '>
 <a href='#About' className="text-primary px-4 font-bold hover:underline cursor-pointer">A propos</a>
 <a href='#Contact' className="text-primary px-4 font-bold hover:underline cursor-pointer">Contact</a>
 <a href='#Service' className="text-primary px-4 font-bold hover:underline cursor-pointer">Services</a>
 <a href='#Information' className="text-primary px-4 font-bold hover:underline cursor-pointer">information</a>
         </div>
-        <div className='flex flex-row ml-80 '>
+        <div className='flex flex-row ml-60 '>
 <LinkButton page="/login" className="text-primary hover:underline py-4">Connexion</LinkButton>
  <LinkButton page="/register" className="text-primary bg-three px-7 py-4 rounded-sm mt-2 hover:bg-primary hover:text-three">S'inscrire</LinkButton>
         </div>

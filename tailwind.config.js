@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'image': `url(./assets/Mahajanga.png)`,
+        'tsingy': `url(./assets/tsiri.jpg)`,
       },
       
     },
