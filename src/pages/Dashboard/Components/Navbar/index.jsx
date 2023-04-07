@@ -6,7 +6,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className='bg-tsingy bg-cover h-[350px] flex flex-row z-30 w-screen '>
+      <nav className='bg-tsingy bg-cover h-[350px] flex flex-row z-10 w-screen '>
         <div className='flex flex-row py-4 ml-4'>
           <div className='text-5xl font-bold text-primary'>V</div>
           <div className='text-primary font-bold text-3xl'>isit.</div>
