@@ -16,7 +16,7 @@ function Navbar() {
         <LinkButton page="/" className="text-primary hover:underline py-4">Hôtel</LinkButton>
         <LinkButton page="/" className="text-primary hover:underline py-4">Agence de voyage</LinkButton>
         <LinkButton page="/" className="text-primary hover:underline py-4">Transport</LinkButton>
-        <LinkButton page="/" className="text-primary hover:underline py-4">Lieux</LinkButton>
+        <LinkButton page="/lieu" className="text-primary hover:underline py-4">Lieux</LinkButton>
         </div>
         <div className='flex flex-row ml-60'>
         <LinkButton page="/" className="text-primary hover:underline py-4">Deconnexion</LinkButton>
