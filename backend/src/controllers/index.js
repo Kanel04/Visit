@@ -1,5 +1,6 @@
 const crypto = require("crypto");
 const User = require("../models/index");
+const jwt = require("jsonwebtoken");
 
 const signToken = (id) => {
     return jwt.sign({ id: id }, process.env.JWT_SECRET, {
