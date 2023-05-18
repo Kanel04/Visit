@@ -29,7 +29,7 @@ function RegisterPage({history}) {
           setTimeout(() => {
               setError("");
           }, 5000);
-          return setError("Votre mot de passe doit être la même que celle de confirmation");
+          return alert("votre mot de passe doit être la même que celle de votre confirmation de mot de passe  ");
       }
 
       try {
@@ -71,7 +71,6 @@ function RegisterPage({history}) {
     <div className='bg-primary w-96 h-[590px] py-12'>
     <form onSubmit={registerHandler} >
       <h1 className='font-bold text-3xl text-center '>Formulaire</h1>
-      {error && <span className="text-white  bg-red-700 h-12 rounded-xl w-96 mt-5 px-2 ">{error}</span>}
       <div className='flex justify-center py-10'>
        <div className='flex flex-col'>
        <Input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Votre nom complet" ></Input>

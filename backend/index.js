@@ -18,9 +18,13 @@ app.use(express.json());
 
 // Routes
 const authRoutes = require("./src/routers/index");
+const restaurantRoutes  = require("./src/routers/restaurantRoutes")
+const userRoutes = require("./src/routers/users");
 
 // Routes middleware
 app.use("/api/v1/auth", authRoutes);
+app.use("/api/restaurant" , restaurantRoutes);
+app.use("/api/user" , userRoutes);
 
 
 server.listen(PORT, () => {
